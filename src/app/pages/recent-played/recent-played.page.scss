@@ -1,0 +1,84 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+ion-header{
+    .header-tool{
+     --background: var(  --ion-header-background);
+        padding-left: 6px;
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+            .close-icon{
+                color: white;
+                font-size: 1.7rem;
+                padding-left: 3px;
+                padding-top: 5px;
+                
+            }
+            .p1{
+                text-align: center;
+                color: white;
+                font-size: 1rem;
+                font-weight: 700;
+                padding-right: 2rem;
+            }
+        }
+    }
+   }
+ion-content{
+    .main-div{
+        background-color: black;
+        height: auto;
+        padding-bottom: 10px;
+        .section-1{
+            padding-left: 10px;
+            .Yesterday{
+                color: white;
+                margin: 0;
+                font-weight: 700;
+                padding-top: 15px;
+                font-size: 19px
+            }
+            .playlist-div{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 15px;
+                padding-top: 20px;
+                .music-icon{
+                    font-size: 35px;
+                    color: white;
+                }
+                .p1{
+                    margin: 0;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+                span{
+                    color: rgb(169, 169, 169);
+                      font-size: 12px;   
+                      font-weight: 600; 
+                }
+
+            }
+            .section-1-inner{
+                padding-left: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 10px;
+
+                .dot-icon{
+                    font-size: 22px;
+                    color: grey;
+                    padding-top: 20px;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,253 @@
+*{
+    font-family: var( --font-family-poppins);
+}
+ion-header{
+    .header-tool{
+        --background:var(--ion-header-background);
+        padding-left: 6px;
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+            .back-arrow{
+                color: white;
+                font-size: 1.3rem;
+                padding-left: 3px;
+                
+            }
+            .p1{
+                text-align: center;
+                color: white;
+                font-size: 1rem;
+                font-weight: 700;
+                padding-right: 2rem;
+            }
+        }
+    }
+   }
+ion-content{
+    .main-div{
+       background: black;
+    
+    .section-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left: 10px;
+        padding-right: 10px;
+        h5{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p{
+            color: white;
+            font-size: 13px;
+        }
+    }
+
+    .section-2{
+        height: 255px;
+        margin: 1rem;
+        background: var(--ion-header-background);
+
+        border-radius: 8px;
+        .section-2-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            background-color: rgb(242, 175, 186);
+            // border-radius: 8px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            padding-left: 7px;
+            padding-right: 7px;
+            .premium-h6{
+               color: black;
+               font-weight: 700;
+            }
+            .p1{
+                margin-top: 5px;
+                color: black;
+                font-size: 14px;
+            }
+          .premium-h6-2{
+            font-weight: 800;
+            color: black;
+            text-align: end;
+            font-size: 18px;
+          }
+          .p2{
+            margin-top: 5px;
+            color: black;
+            font-size: 12px;
+          }
+        }
+        .section-2-div-2{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-radius: 8px;
+            padding-left: 7px;
+            padding-right: 7px;
+            h6{
+               color: white;
+               font-weight: 500;
+               font-size: 14px;
+            }
+            p{
+                margin-top: 5px;
+                color: white;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .today{
+                text-align: end;
+            }
+         
+        }
+        .section-2-div-3{
+           ul{
+            margin-top: 4px;
+            padding-left: 20px;
+            li{
+                font-size: 12px;
+                color: white;
+            }
+           }
+        }
+    }
+    .section-3{
+        padding-left: 10px;
+        h5{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 13px;
+            color: white;
+        }
+        .segment-toolbar{
+            --background:rgb(33, 31, 31);
+       
+        .segment-div{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            p{
+                color: white;
+                text-transform: capitalize;
+            }
+            .google-logo{
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+    }
+    .section-4{
+        height: 195px;
+        margin: 1rem;
+        background: var(--ion-header-background);
+        border-radius: 8px;
+        .section-4-inner{
+            text-align: center;
+            p{
+                color: white;
+                font-size: 13px;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+            .payment-options{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .payment-options-btn{
+                    height: 10px;
+                    width: 50px;
+                    --background:transparent;
+                    border: 1px solid gray;
+                    border-radius: 15px;
+                    font-size: 12px;
+                }
+            }
+            .continue-spotify-btn{
+                --background: var( --ion-buttons-color);
+                color: black;
+                font-weight: 800;
+                text-transform: capitalize;
+                font-size: 14px;
+                --border-radius: 20px;
+                width: 85%;
+                height: 43px;
+                margin-top: 13px;
+               
+
+            }
+        }
+    }
+
+    // google play button div
+    .section-4-div2{
+        height: 195px;
+        margin: 1rem;
+        background: var(--ion-header-background);
+        border-radius: 8px;
+        display: none;
+        .section-4-inner{
+            text-align: center;
+            p{
+                color: white;
+                font-size: 13px;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+            .payment-options{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .payment-options-btn{
+                    height: 10px;
+                    width: 50px;
+                    --background:transparent;
+                    border: 1px solid gray;
+                    border-radius: 15px;
+                    font-size: 12px;
+                }
+            }
+            .continue-spotify-btn{
+                --background: var( --ion-color-success-shade);
+                color: black;
+                font-weight: 800;
+                text-transform: capitalize;
+                font-size: 14px;
+                --border-radius: 20px;
+                width: 85%;
+                height: 43px;
+                margin-top: 13px;
+               
+
+            }
+        }
+    }
+    
+    .section-5{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        p{
+            font-size: 12px;
+            color: white;
+            font-weight: 700;
+        }
+    }
+
+}
+}

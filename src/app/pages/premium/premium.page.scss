@@ -1,0 +1,437 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+ion-content{
+    .main-div{
+        background-color: black;
+        padding-bottom: 2rem;
+        height: auto;
+        .section-1{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            padding-left: 10px;
+            position: sticky;
+            top: 0;
+            background-color: black;
+            z-index: 2;
+            p{
+                color: white;
+                font-weight: 800;
+            }
+          
+        }
+        .section-2{            
+           overflow: hidden;
+           height: 200px;
+           padding-left: 10px;
+           img{
+            height: 220px;
+            transform: rotate(15deg);
+            background-position: center;
+            opacity: 0.7;
+           }
+        }
+        .section-3{
+            padding-left: 10px;
+            p{
+                color:white;
+                font-size: 10px;
+                margin-bottom: 0px;
+            }
+            h3{
+                color:white;
+                font-size: 28px;
+                font-weight: bold;
+                margin-top: 8px;
+            }
+            .Premium-btn{
+                display: flex;
+                justify-content: center;
+                .get-premium-btn{
+                    width: 90%;
+                    --border-radius: 40px;
+                    font-weight: 800;
+                    height: 45px;
+                    --background: white;
+                    color: black;
+                    // border: 1px solid white;
+                }
+            }
+          
+        }
+        .section-4{
+            p{
+               color: var(  --ion-color-medium-tint);
+                font-size: 11px;
+                font-weight: 800;
+                padding-left: 10px;
+                span{
+                    color: white;
+                    
+                }
+            }
+            .join-premium{
+                height: 245px;
+                background-color: rgb(40, 39, 39);
+                margin: 1rem;
+                padding-left: 0;
+                padding-left: 10px;
+                border-radius: 8px;
+                h5{
+                    color: white;
+                    padding-top: 1.3rem;
+                    font-weight: 800;
+                }
+                .list{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 10px;
+                    padding-left: 5px;
+                    padding-bottom: 8px;
+                    ion-icon{
+                        color: var( --ion-text-color);
+                        font-size: 25px;
+                    }
+                    p{
+                        color: white;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .section-5{
+            background-color: rgb(76, 74, 74);
+            margin: 1rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+            margin-top: 2rem;
+            height: 50px;
+            h5{
+                color: white;
+                font-size: 16px;
+            }
+            p{
+                color: white;
+                font-size: 12px;
+            }
+        }
+        .section-6{
+            padding-left: 10px;
+            p{
+                font-size: 17px;
+                color: rgb(222, 222, 222);
+                font-weight: 800;
+            }
+            .card{
+                height: 315px;
+                margin: 1rem;           
+                background: linear-gradient(346deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+                border-radius: 8px;
+                .card-inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 1rem;
+                    p{
+                        color: white;
+                    }
+                    h6{
+                        color: white;
+                        font-size: 17px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .card-inner-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    .p1{
+                        color: white;
+                        text-align: justify;
+                        font-size: 14px;
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .view-plan-btn{
+                        width: 40%;
+                        --background: white;
+                        color: black;
+                        font-size: 12px;
+                        font-weight: 700;   
+                        --border-radius: 40px; 
+                        height: 40px;                    
+                    }
+                    .p2{
+                        font-size: 11px;
+                    //    color: var(--ion-color-medium-tint);
+                    color: rgb(227, 223, 223);
+                       padding-bottom: 20px;
+                       text-align: center;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       span{
+                        color: white;
+                       }
+                    }
+                }
+            }
+            .card-2{
+                height: 300px;
+                margin: 1rem;           
+                // background: rgb(54,145,85);
+                background: linear-gradient(357deg, rgba(54,145,85,1) 40%, rgba(43,139,75,1) 53%, rgba(139,194,162,1) 100%);
+                border-radius: 8px;
+                .card-inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 1rem;
+                    p{
+                        color: white;
+                    }
+                    h6{
+                        color: white;
+                        font-size: 17px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .card-inner-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    .p1{
+                        color: white;
+                        text-align: justify;
+                        font-size: 14px;
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .view-plan-btn{
+                        width: 40%;
+                           --background: white;
+                    color: black;
+                        font-size: 12px;
+                        font-weight: 700;   
+                        --border-radius: 40px; 
+                        height: 40px;                    
+                    }
+                    .p2{
+                        font-size: 11px;
+                    //    color: var(--ion-color-medium-tint);
+                    color: rgb(227, 223, 223);
+                       padding-bottom: 20px;
+                       text-align: center;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       span{
+                        color: white;
+                       }
+                    }
+                }
+            }
+            .card-3{
+                height: 360px;
+                margin: 1rem;           
+                background: rgb(104,147,142);
+background: linear-gradient(357deg, rgba(104,147,142,1) 19%, rgba(128,140,144,1) 35%, rgba(108,151,157,1) 69%);
+                border-radius: 8px;
+                .card-inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 1rem;
+                    p{
+                        color: white;
+                    }
+                    h6{
+                        color: white;
+                        font-size: 17px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .card-inner-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    .p1{
+                        color: white;
+                        text-align: justify;
+                        font-size: 13px;
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .view-plan-btn{
+                        width: 40%;
+                           --background: white;
+                    color: black;
+                        font-size: 12px;
+                        font-weight: 700;   
+                        --border-radius: 40px; 
+                        height: 40px;                    
+                    }
+                    .p2{
+                        font-size: 11px;
+                    //    color: var(--ion-color-medium-tint);
+                    color: rgb(227, 223, 223);
+                       padding-bottom: 20px;
+                       text-align: center;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       span{
+                        color: white;
+                       }
+                    }
+                }
+            }
+            .card-4{
+                height: 280px;
+                margin: 1rem;           
+                background: rgb(139,18,175);
+                background: linear-gradient(347deg, rgba(139,18,175,1) 33%, rgba(129,26,175,1) 36%, rgba(56,88,173,1) 80%, rgba(51,73,131,1) 94%);
+                border-radius: 8px;
+                .card-inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 1rem;
+                    p{
+                        color: white;
+                    }
+                    h6{
+                        color: white;
+                        font-size: 17px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .card-inner-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    .p1{
+                        color: white;
+                        text-align: justify;
+                        font-size: 13px;
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .view-plan-btn{
+                        width: 40%;
+                           --background: white;
+                    color: black;
+                        font-size: 12px;
+                        font-weight: 700;   
+                        --border-radius: 40px; 
+                        height: 40px;                    
+                    }
+                    .p2{
+                        font-size: 11px;
+                    //    color: var(--ion-color-medium-tint);
+                    color: rgb(227, 223, 223);
+                       padding-bottom: 20px;
+                       text-align: center;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       span{
+                        color: white;
+                       }
+                    }
+                }
+            }
+            .card-5{
+                height: 280px;
+                margin: 1rem;           
+                background: rgb(203,139,11);
+                background: linear-gradient(216deg, rgba(203,139,11,1) 16%, rgba(170,140,16,1) 69%, rgba(133,117,35,1) 93%);
+                border-radius: 8px;
+                padding-bottom: 2rem;
+                .card-inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 1rem;
+                    p{
+                        color: white;
+                    }
+                    h6{
+                        color: white;
+                        font-size: 17px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .card-inner-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    .p1{
+                        color: white;
+                        text-align: justify;
+                        font-size: 13px;
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .view-plan-btn{
+                        width: 40%;
+                           --background: white;
+                    color: black;
+                        font-size: 12px;
+                        font-weight: 700;   
+                        --border-radius: 40px; 
+                        height: 40px;
+                                    
+                    }
+                    .p2{
+                        font-size: 11px;
+                    //    color: var(--ion-color-medium-tint);
+                    color: rgb(227, 223, 223);
+                       padding-bottom: 20px;
+                       text-align: center;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       span{
+                        color: white;
+                       }
+                    }
+                }
+            }
+        }
+    }
+    flex: 1;
+}
+app-footer{
+    height: 50px;
+}

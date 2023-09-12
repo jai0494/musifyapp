@@ -1,0 +1,109 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+
+ion-header{
+    .header-tool{
+        --background:var(--ion-header-background);
+    }
+  
+  
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   
+
+        .back-arrow{
+            color: white;
+            font-size: 1.3rem;
+            padding-left: 3px;
+            
+        }
+        .p1{
+            text-align: center;
+            color: white;
+            font-size: 1.1rem;
+            padding-right: 2rem;
+        }
+    }
+   }
+
+   ion-content{
+    .main-div{
+        background-color: black;
+        height: 100vh;
+        padding-left: 10px;
+        .p1{
+            font-size: 1.3rem;
+            color: white;
+            font-weight: 700;
+            margin-top: 0;
+            padding-top: 2rem;
+            margin-bottom: 4px;
+        }  
+     .inputs{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        ion-input{
+            // width: 15%;
+            max-width: 35px;
+            min-height: 50px;
+            background-color: gray;
+            border-radius: 8px;
+            color: white;
+            --padding-end: 5px;
+            --padding-start: 5px; 
+        }
+     }
+        // small tag
+        .small-tag{
+            color: white;
+            font-weight: 500;
+        }
+  
+
+        .btn-div{
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            .next-btn{
+                width: 24%;
+                --border-radius: 60px;
+                --background: var( --ion-buttons-color);
+                font-weight: 800;
+                font-size: 0.8rem;
+            }
+            
+        }
+
+        .resend-outer{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+            .resend-button{
+                display:flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                ion-icon{
+                    color: white;
+                    font-size: 25px;
+                }
+                small{
+                    color: white;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+   }

@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/continue-with-phone"></ion-icon>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">Enter your code</p>
+<div class="inputs">
+  <ion-input></ion-input>
+  <ion-input></ion-input>
+  <ion-input></ion-input>
+  <ion-input></ion-input>
+  <ion-input></ion-input>
+  <ion-input></ion-input>
+</div>
+
+ <!-- small tag -->
+<div class="ion-text-center">  
+<small class="small-tag">We sent an SMS with a 6-digit code to <br> <u>number?</u></small>
+</div>
+
+<!-- button -->
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/home-page">Next</ion-button>
+</div>
+
+<!-- resend sms -->
+<div class="resend-outer">
+  <div class="resend-button">
+    <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+    <div>
+      <small>Resend SMS</small>
+    </div>
+  </div>
+</div>
+ 
+<!-- edit phone no -->
+<div class="resend-outer">
+  <div class="resend-button">
+    <ion-icon name="pencil-sharp"></ion-icon>
+    <div>
+      <small>Edit phone number</small>
+    </div>
+  </div>
+</div>
+ </div>
+</ion-content>

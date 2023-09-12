@@ -1,0 +1,202 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+ion-header{
+    .header-tool{
+       --background: var(--ion-header-background);   
+  
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: start;   
+        gap: 20px;
+        padding-left: 10px;
+    
+
+        .back-arrow{
+            color: white;
+            font-size: 1.3rem; 
+            padding-top: 4px;         
+            
+        }
+        .input{
+           p{
+                // --background:transparent;
+                color: white;
+               
+            }
+        }
+    }
+}
+   }
+ion-content{
+    .main-div{
+        background: linear-gradient(360deg, rgba(0,0,0,1) 20%, rgba(136,132,132,1) 100%);
+        height: auto;
+        .square-parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 15px;
+            .square-div{
+                height: 180px;
+                width: 180px;
+                background-color: rgb(72, 72, 72);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+               .jubin-img{
+                box-shadow: 0 0 10px 2px rgb(207, 207, 207);
+                border-radius: 8px;
+                overflow: hidden;
+               }
+            }
+        }
+        .section-2{
+            padding-left: 10px;
+            padding-top: 10px;
+            h6{
+                color: white;
+                font-size: 1.3rem;
+                font-weight: 800;
+            }
+            p{
+                color: white;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                font-weight: 700;
+                gap: 10px;
+                ion-icon{
+                    font-size: 1.4rem;
+                }
+            }
+            .section-2-div2{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 15px;
+                ion-icon{
+                    color: var(--ion-color-medium-tint);
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        .section-3{
+            padding-left: 10px;
+            .icon-main-div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 15px;
+
+                .icons{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 13px;
+                    .add-icon{
+                        color: rgb(169, 169, 169);
+                        font-size: 28px;
+                    }
+                    .dot-icon{
+                        color: rgb(169, 169, 169);
+                        font-size: 25px;
+                        padding-top: 5px;
+                    }
+                }
+               
+                .play-icon{
+                    color: white;
+                    font-size: 40px;
+                }
+            }
+          
+        }
+        .section-4{
+            padding-left: 10px;
+            padding-top: 1rem;
+            h6{
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            p {
+                color: var(--ion-color-medium-tint
+                );
+                font-size: 12px;
+                margin-top: 8px;
+            }
+            .section-4-lists{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 10px;
+
+                .section-2-forth{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 12px;
+                    // padding-left: 10px;
+                    padding-top: 4px;
+                    .color-div{
+                        height: 60px;
+                        width: 60px;
+                        // background-color: rgb(125, 8, 119);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50px;
+                        .bell-icon{
+                            font-size: 25px;
+                            color: rgb(49, 198, 113);
+                        }
+                        img{
+                            height: 100%;
+                            // border-radius: 40px;
+                        }
+                    }
+                    .Episodes{
+                      
+                        h6{
+                            color: white;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                        p{
+                            color: var(--ion-color-medium-tint);
+                            margin-top: 5px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .tone-icon{
+                    font-size: 1.4rem;
+                    color: white;
+                }
+
+            }
+          
+        }
+        .refresh-btn-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .refresh-btn{
+                --border-radius: 40px;
+                --background: var( --ion-color-light);
+                 font-size: 11px;
+                 color: black;
+                 --background:white;
+                 font-weight: bold;
+                 text-transform:capitalize;
+                 width: 25%;
+            }
+        }
+     
+    }
+}

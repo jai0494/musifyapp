@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="close-icon"  routerLink="/settings"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>profile</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="main-div">
+     <!-- section-1 -->
+  <div class="section-1">
+    <div class="inner">
+      <div class="inner-2">
+        <div class="circle">
+          <ion-icon name="person-outline" class="person-icon"></ion-icon>
+        </div>
+        <div>
+          <h6>Idname</h6>
+          <p><span> 0 </span>followers . <span>0</span> following</p>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+  <!-- section-2 -->
+  <div class="section-2">
+    <ion-button class="edit-btn">Edit</ion-button>
+    <div>
+      <ion-icon name="ellipsis-vertical-outline" class="options-icon"></ion-icon>
+    </div>
+  </div>
+  <!-- section-3 -->
+  <div class="section-3">
+    <div>
+      <h4>Playlists</h4>
+      <div class="playlist-div">
+        <ion-icon name="musical-notes-outline" class="music-icon"></ion-icon>
+        <div>
+          <p class="p1">My Playlist #1 </p>
+          <span>0 followers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</ion-content>
+<app-footer></app-footer>

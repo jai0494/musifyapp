@@ -1,0 +1,305 @@
+<ion-header>
+  <div class="header">
+    <div>
+      <p class="p1">Good morning</p>
+    </div>
+    <div class="icons">
+      <div><ion-icon name="notifications-outline" class="icon" routerLink="/notification"></ion-icon></div>
+      <div><ion-icon name="time-outline"  class="icon" routerLink="/recent-played"></ion-icon></div>
+      <div><ion-icon name="settings-outline"  class="icon" routerLink="/settings"></ion-icon></div>
+    </div>
+  </div> 
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <!-- header section -->
+  <div class="main-div">
+     
+    <div class="tabs">
+      <div>
+        <ion-button class="music-tab">Music</ion-button>
+      </div>
+      <div>
+        <ion-button class="Podcasts-tab">Podcasts & Shows</ion-button>
+      </div>
+    </div>
+
+    <!-- The ranveer singh show -->
+    <div class="section-3">
+      <div>
+        <img src="../../../assets/images/ranveer dp.png" alt="" style="height: 60px; width: 60px;">
+      </div>
+      <div class="div2">
+        <div><p class="p1">POPULAR WITH LISTENERS OF</p></div>
+        <p class="p2">The Ranveer Show</p>
+      </div>
+    </div>    
+     
+       <!-- slider Start -->
+      <p class="Charts">Charts</p>
+      <swiper-container [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-1.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">Business & Technology.</p>
+          <p class="slider-p2">Woice with Warikoo Podcast</p>
+          <p class="slider-p3">Show . Ankur Warikoo</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-2.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">Business</p>
+          <p class="slider-p2">Aman Dhattarwal Hustlers 'Podcast</p>
+          <p class="slider-p3">Show . Josh Talks Podcast</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">Educational . Stories</p>
+          <p class="slider-p2">Josh Talks Hindi</p>
+          <p class="slider-p3">Show . Josh Talks Podcast</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-4.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">Business & Technology </p>
+          <p class="slider-p2">Chanakya Unscripted</p>
+          <p class="slider-p3">Show .Dr. Radhakrishanan</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-5.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">Business & Technology.</p>
+          <p class="slider-p2">Figuring Out with Raj shamani</p>
+          <p class="slider-p3">Show . Raj Shamani</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/home-img-6.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p1">News & Politics.</p>
+          <p class="slider-p2">ANI Podcast with Smitha Prakash</p>
+          <p class="slider-p3">Show . Asian news Internation (ANI)</p>
+        </swiper-slide>
+      </swiper-container> 
+
+
+    <!-- Trending Now -->
+    <div style="margin-top: 15px;"> 
+      <p class="Charts">Trending Now</p>
+      <swiper-container  [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-1.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">What jhumka ?</p>
+          <p class="slider-p3">single . Pritam, Arijit Singh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-2.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Lo Aayi Barsaat</p>
+          <p class="slider-p3">single . Darshan Raval</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Yaar Ka Sataya Hua Hai</p>
+          <p class="slider-p3">Show . B Praak,  Jaani</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-4.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Tumhe Kitna Pyaar Karte </p>
+          <p class="slider-p3">Show .Mithun, Arijit singh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-5.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Hukum-Thalaivar</p>
+          <p class="slider-p3">Show . Anirudh Ravichander</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/trending-6.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Yadav Brand 2</p>
+          <p class="slider-p3">Show . Sunny Yaduvanshi</p>
+        </swiper-slide>
+      </swiper-container>          
+    </div>
+
+     <!-- Big Hits -->
+     <div style="margin-top: 15px;"> 
+      <p class="Charts">Big Hits!</p>
+      <swiper-container [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-1.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Bollywood Mush </p>
+          <p class="slider-p3">Let these songs be the background scrore to your love story.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-2.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">India India</p>
+          <p class="slider-p3">B bole to big blockbuster.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Hot Hits</p>
+          <p class="slider-p3">Hottest Hindi music served here.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-4.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Trending Valentines Hits</p>
+          <p class="slider-p3">India's Ultimate Love pLaylist.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-5.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Punjabi 101</p>
+          <p class="slider-p3">Ultimate 101 Punjabi Hits with Shubh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-6.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Trending Now Punjabi</p>
+          <p class="slider-p3">All that's viral, stream now!</p>
+        </swiper-slide>
+      </swiper-container>          
+    </div>
+      
+    <!-- popular albums -->
+    <div style="margin-top: 20px;"> 
+      <p class="Charts">Popular albums</p>
+      <swiper-container [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Phir Aur Kya chahiye </p>
+          <p class="slider-p3">Single . Sacchin-Jigar, Arijit singh, Amitabh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img-2.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Kabir Singh</p>
+          <p class="slider-p3">Compilation. Various Artist</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Tere Vaaste</p>
+          <p class="slider-p3">Single . Varun Jain, Sacin-Jigar, Amitabh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img-4.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Champagne Talk</p>
+          <p class="slider-p3">Album . King</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img-5.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Aashiqui 2</p>
+          <p class="slider-p3">Album . Mithoon, ankit Tiwari , Jeet Gannguli</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/album-img-6.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p2">Yeh Jawaani Hai Deewani</p>
+          <p class="slider-p3">Album . Pritam</p>
+        </swiper-slide>
+      </swiper-container>          
+    </div>
+
+     <!-- India's best -->
+     <div style="margin-top: 20px;"> 
+      <p class="Charts">India's Best</p>
+      <swiper-container [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-5.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">Ultimate 101 Punjabi Hits with Shubh</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/best-img.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">The finest set of Telugu music from the past</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/hits-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">B bole toh biggest blockbusters,</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/best-img2.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">Finest collection of Tamil Music from the past</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/best-img-3.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">Listen to indian women, at full volume.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"> 
+          <img src="../../../assets/images/best-img-4.jpg" alt="" height="168px" width="168px">
+          <p class="slider-p3">Most exciting artists from the indian.</p>
+        </swiper-slide>
+      </swiper-container>          
+    </div>
+
+     <!-- Popular artists -->
+    <div style="margin-top: 20px;"> 
+      <p class="Charts">Popular Artist</p>
+      <swiper-container [slidesPerView]="2">
+        <swiper-slide routerLink="/home-page2" class="artists">
+          <div>
+            <img src="../../../assets/images/artist.jpg" alt="" height="160px" width="160px" class="artist-img">    
+          </div>        
+          <p class="slider-p1 ion-text-center">Arijit Singh.</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"  class="artists"> 
+        <div>
+          <img src="../../../assets/images/artist-2.jpg" alt="" height="160px" width="160px" class="artist-img">
+        </div>
+          <p class="slider-p1 ion-text-center"> Pritam</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"  class="artists"> 
+        <div>
+          <img src="../../../assets/images/artist-3.jpg" alt="" height="160px" width="160px" class="artist-img">
+        </div>
+          <p class="slider-p1 ion-text-center">Shreya Ghoshal</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"  class="artists"> 
+        <div>
+          <img src="../../../assets/images/artist-4.jpg" alt="" height="160px" width="160px" class="artist-img">
+        </div>
+          <p class="slider-p1 ion-text-center">Alka Yagnik </p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"  class="artists"> 
+        <div>
+          <img src="../../../assets/images/artist-5.jpg" alt="" height="160px" width="160px" class="artist-img">
+        </div>
+          <p class="slider-p1 ion-text-center">A.R Rahman</p>
+        </swiper-slide>
+        <swiper-slide routerLink="/home-page2"  class="artists"> 
+         <div>
+          <img src="../../../assets/images/artist-6.jpg" alt="" height="160px" width="160px" class="artist-img">
+         </div>
+          <p class="slider-p1 ion-text-center">Sidhu Moosewala</p>
+        </swiper-slide>
+      </swiper-container>          
+    </div>
+ 
+   
+      <!-- Punjabi pop -->
+      <div style="margin-top: 20px; padding-bottom: 2rem;"> 
+        <p class="Charts">Punjabi Pop</p>
+        <swiper-container [slidesPerView]="2">
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">Catch all the collaborations</p>
+          </swiper-slide>
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi-2.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">Emerginng Punjabi Pop tracks featuring Akhil.</p>
+          </swiper-slide>
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi-3.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">Catch the queens of Punjabi Pop.</p>
+          </swiper-slide>
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi-4.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">Get your dose of Punjabi Pop.</p>
+          </swiper-slide>
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi-5.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">All that's viral , stream now!</p>
+          </swiper-slide>
+          <swiper-slide routerLink="/home-page2"> 
+            <img src="../../../assets/images/punjabi-6.jpg" alt="" height="168px" width="168px">
+            <p class="slider-p3">Artists that are always on our minds!</p>
+          </swiper-slide>
+        </swiper-container>          
+      </div>
+
+
+  </div>
+  
+ </ion-content>
+ 
+ <app-footer></app-footer>
+ 
+ 

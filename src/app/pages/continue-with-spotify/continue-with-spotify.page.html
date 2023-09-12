@@ -1,0 +1,180 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="close-outline"  class="close-icon" routerLink="/get-premium"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Get Premium</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="main-div">
+      <!-- section-1 -->  
+      <div class="section-1">
+        <div>
+          <h5>Review your plan</h5>
+        </div>
+        <p><u routerLink="/change-plan">Change plan</u></p>
+      </div>
+      <!-- section-2 -->
+      <div class="section-2">
+        <div class="section-2-div">
+          <div>
+            <h6 class="premium-h6">Premium Individual</h6>
+            <p class="p1">1 Premium Account</p>
+          </div>
+         <div>
+          <h6 class="premium-h6-2">Free</h6>
+          <p class="p2">FOR 1 MONTH</p>
+         </div>
+        </div>
+        <div class="section-2-div-2">
+          <div>
+            <h6>Start free month</h6>
+            <p>Start billing date</p>
+          </div>
+         <div>
+          <h6 class="today">Today</h6>
+          <p>Aug 26, 2023</p>
+         </div>
+        </div>
+        <div class="section-2-div-3">
+          <ul>
+            <li>Only 119.00 INR / month after 1 month trial</li>
+            <li>You won't be changed until Aug 26,2023</li>
+            <li>Cancel anytime. <u>Offer terms</u> apply</li>
+            <li>We'll remindyou 7 days before you get charged</li>
+          </ul>
+        </div>
+      </div>
+      <!-- section-3 -->
+      <div class="section-3">
+        <p>Address</p>
+        <p class="p2"><span>Learn more</span> about why we need this information.</p>
+        <p>State</p>
+        <div class="input-area">
+          <ion-list>
+            <ion-item lines="none">
+              <ion-select aria-label="Choose a state" placeholder="Choose a state" [multiple]="true">
+                <ion-select-option>Andhra Pradesh</ion-select-option>
+                <ion-select-option>Arunachal Pradesh</ion-select-option>
+                <ion-select-option>Assam</ion-select-option>
+                <ion-select-option>Chandigarh</ion-select-option>
+                <ion-select-option>Haryana</ion-select-option>
+                <ion-select-option>Rajasthan</ion-select-option>
+                <ion-select-option>Punjab</ion-select-option>
+                <ion-select-option>Delhi</ion-select-option>
+                <ion-select-option>Goa</ion-select-option>
+                <ion-select-option>Himachal Pradesh</ion-select-option>
+                <ion-select-option>Jammu & Kashmir</ion-select-option>
+                <ion-select-option>Karnataka</ion-select-option>
+                <ion-select-option>Kerala</ion-select-option>
+                <ion-select-option>Ladakh</ion-select-option>
+                <ion-select-option>Manipur</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+        </div>
+
+      </div>
+      <!-- section-4 -->
+      <div class="section-4">
+        <div>
+          <ion-radio-group [allowEmptySelection]="true" value="turtles">
+            <div class="div1">
+              <ion-radio class="radio-btn"></ion-radio>
+              <div>
+                <p>UPI</p>
+                <div class="payment-options">
+                  <img src="../../../assets/images/upi.avif" alt="" height="25px" width="35px">
+                  <img src="../../../assets/images/phonepay.webp" alt="" height="25px" width="35px">
+                  <img src="../../../assets/images/googlepay.webp" alt="" height="25px" width="35px">
+                  <img src="../../../assets/images/paytm.jpg" alt="" height="25px" width="35px">
+                  <ion-button class="payment-options-btn">+3 more</ion-button>
+                </div>
+              </div>
+            </div>
+            <!-- upi-option -->
+            <div class="upi-option">
+              <p>UPI ID</p>
+              <ion-item lines="none">
+                <ion-input placeholder="user@upihandle"></ion-input>
+              </ion-item>
+              <div class="upi-option-div">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ratione unde rerum recusandae obcaecati deleniti voluptate nihil laudantium modi debitis tempore architecto fugiat, neque dignissimos magnam quasi quaerat voluptas sapiente.</p>
+                <ion-button class="purchase-btn">Continue purchase</ion-button>
+              </div>
+            </div>
+
+            <div class="div2">
+              <ion-radio class="radio-btn"></ion-radio>
+              <div>
+                <p>Credit or debit card</p>
+                <div class="payment-options-2">
+                  <img src="../../../assets/images/visa.png" alt="" height="17px" width="30px">
+                  <img src="../../../assets/images/american express.webp" alt="" height="20px" width="35px">
+                  <img src="../../../assets/images/credit card.avif" alt="" height="20px" width="35px">
+                </div>
+              </div>
+            </div>
+            <!-- credit card & debit card options -->
+            <div class="credit-options">
+              <div class="credit-div1">
+                <h6>Payment details</h6>
+                  <div>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                  </div>
+              </div>
+               <div class="credit-div2">
+                <p>Card number</p>
+                <div>
+                  <ion-item class="card-no-input" lines="none">
+                    <ion-icon name="card-outline"></ion-icon>
+                    <ion-input placeholder="0000 0000 0000"></ion-input>
+                  </ion-item>
+                </div>
+               </div>
+              <div class="credit-div3">
+                <div class="credit-div2">
+                  <p>Expiry date</p>
+                  <div>
+                    <ion-item class="card-no-input" lines="none">
+                      <ion-input placeholder="MM / YY"></ion-input>
+                    </ion-item>
+                  </div>
+                 </div>
+                 <div class="credit-div2">
+                  <p>Security code</p>
+                  <div>
+                    <ion-item class="card-no-input" lines="none">                     
+                      <ion-input></ion-input>
+                      <ion-icon name="help-circle-outline"></ion-icon>
+                    </ion-item>
+                  </div>
+                 </div>
+              </div>
+              <div class="credit-div4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ratione unde rerum recusandae obcaecati deleniti voluptate nihil laudantium modi debitis tempore architecto fugiat, neque dignissimos magnam quasi quaerat voluptas sapiente.</p>
+                <ion-button class="buy-btn">BUY NOW</ion-button>
+              </div>
+            </div>
+  
+          </ion-radio-group>
+        </div>
+      </div>
+
+       <div class="section-5">
+        <p>India</p>
+        <p><u>Change Country</u></p>
+      </div>
+      
+  </div>
+</ion-content>

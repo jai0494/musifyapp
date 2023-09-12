@@ -1,0 +1,242 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="close-icon" routerLink="/home-page"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Settings</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+ <div class="main-div">
+    <!-- section-1 -->
+  <div class="section-1">
+    <p class="p1">Free Account</p>
+    <ion-button  routerLink="/premium">Go Premium</ion-button>
+  </div>
+  <!-- section-2 -->
+  <div class="section-2"  routerLink="/profile">
+    <div class="inner">
+      <div class="inner-2">
+        <div class="circle">
+          <ion-icon name="person-outline" class="person-icon"></ion-icon>
+        </div>
+        <div>
+          <h6>Idname</h6>
+          <p>View Profile</p>
+        </div>
+      </div>
+      <div>
+        <ion-icon name="chevron-forward-outline" class="forward-icon"></ion-icon>
+      </div>
+    </div>
+ 
+  </div>
+  <!-- section-3 -->
+  <div class="section-3">
+    <h6 class="account-h6">Account</h6>
+   <div>
+    <p class="p1" routerLink="/free-plan">Free Plan</p>
+    <span class="span">View your plan</span>
+   </div>
+   <div>
+    <p class="p1">Email</p>
+    <span class="span">hello123@gmail.com</span>
+   </div>
+   <h6 class="account-h6">Data Saver</h6>
+   <div>
+    <p class="p1">Save Data</p>
+    <div class="save-data-div">
+      <span>Sets audio quality to low and hides canvases as well as audio & video previews on home.</span>
+      <div class="toggle-div">
+        <ion-item lines="none">
+          <ion-toggle></ion-toggle>
+        </ion-item>
+      </div>
+    </div>
+   </div>
+
+   <h6 class="account-h6">Video Podcasts</h6>
+
+   <div>
+    
+    <div class="save-data-div-2">
+    <div>
+      <p class="p2">Download audio only</p>
+      <span>Save video Podcasts as audio only.</span>
+    </div>
+      <div class="toggle-div">
+        <ion-item lines="none">
+          <ion-toggle></ion-toggle>
+        </ion-item>
+      </div>
+    </div>
+    
+   </div>
+   <div>
+   
+    <div class="save-data-div-2">
+<div>
+  <p class="p2">Stream audio only</p>
+  <span>Play video podcasts as audio only when not on WiFi.</span>
+</div>
+      <div class="toggle-div">
+        <ion-item lines="none">
+          <ion-toggle></ion-toggle>
+        </ion-item>
+      </div>
+    </div>    
+   </div>
+
+   <h6 class="account-h6">Playback</h6>
+   <div>
+    <p class="p1">Crossfade</p>
+    <span class="span">Allows you to crossfade between sogns.</span>
+   </div>
+   <div class="range-div">
+    <ion-range labelPlacement="start" label="Off"></ion-range>
+    <div>
+      <span>12 s</span>
+    </div>
+   </div>
+   <div class="save-data-div-2">
+    <div>
+      <p class="p2">Gapless</p>
+      <span>Allows gapless playback</span>
+    </div>
+      <div class="toggle-div">
+        <ion-item lines="none">
+          <ion-toggle></ion-toggle>
+        </ion-item>
+      </div>
+    </div>
+    
+    <div class="save-data-div-2">
+      <div>
+        <p class="p2">Automix</p>
+        <span>Allow seamless transitions between songs on select playlists</span>
+      </div>
+        <div class="toggle-div">
+          <ion-item lines="none">
+            <ion-toggle></ion-toggle>
+          </ion-item>
+        </div>
+      </div>
+      
+      <div class="save-data-div-2">
+        <div>
+          <p class="p2">Normalize volume</p>
+          <span>Set the same volume level for all tracks.</span>
+        </div>
+          <div class="toggle-div">
+            <ion-item lines="none">
+              <ion-toggle></ion-toggle>
+            </ion-item>
+          </div>
+        </div>
+        
+        <div class="save-data-div-2">
+          <div>
+            <p class="p2">Mono audio</p>
+            <span>Makes the left and right speakers play the same audio.</span>
+          </div>
+            <div class="toggle-div">
+              <ion-item lines="none">
+                <ion-toggle></ion-toggle>
+              </ion-item>
+            </div>
+          </div>
+          
+          <div class="save-data-div-2">
+            <div>
+              <p class="p2">Canvas</p>
+              <span>Display short, looping visuals on tracks.</span>
+            </div>
+              <div class="toggle-div">
+                <ion-item lines="none">
+                  <ion-toggle></ion-toggle>
+                </ion-item>
+              </div>
+            </div>
+
+            <h6 class="account-h6">Devices</h6>
+            <div>
+              <p class="p1">Connect to a device</p>
+              <span class="span">Listen to a device</span>
+             </div>
+             <div class="save-data-div-2">
+              <div>
+                <p class="p2">Show local device</p>
+                <span>Only show devices on you local WiFi or ethernet in the devices menu.</span>
+              </div>
+                <div class="toggle-div">
+                  <ion-item lines="none">
+                    <ion-toggle></ion-toggle>
+                  </ion-item>
+                </div>
+              </div>
+              <div class="save-data-div-2">
+                <div>
+                  <p class="p2">Connect in background</p>
+                  <span>Allow to Connect keep Songs running when the app is in background.</span>
+                </div>
+                  <div class="toggle-div">
+                    <ion-item lines="none">
+                      <ion-toggle></ion-toggle>
+                    </ion-item>
+                  </div>
+                </div>
+
+                <h6 class="account-h6">Storage</h6> 
+                <div>
+                  <p class="p1">Remove all downloads</p>
+                  <span class="span">Remove all of the Songs content you have downloaded for offline use.</span>
+                 </div> 
+                 <div>
+                  <p class="p1">Clear cache</p>
+                  <span class="span">You can free up Storage by clearing your cache. Your downloads won't be Removed.</span>
+                 </div>
+                 <h6 class="account-h6">Notifications</h6> 
+                 <div>
+                  <p class="p1">Notifications</p>
+                  <span class="span">Choose which notifications to recieve.</span>
+                 </div> 
+                 <h6 class="account-h6">About</h6> 
+                 <div>
+                  <p class="p1">Version</p>
+                  <span class="span">8.0.9.8.993</span>
+                 </div> 
+                 <div>
+                  <p class="p1">Third-party software</p>
+                  <span class="span">Sweet software that helped you</span>
+                 </div>
+                 <div>
+                  <p class="p1">Privacy Policy</p>
+                  <span class="span">Important for both of us</span>
+                 </div>
+                 <div>
+                  <p class="p1">Support</p>
+                  <span class="span">Get help form us and the community.</span>
+                 </div>
+                 <h6 class="account-h6">Other</h6> 
+                 <div>
+                  <p class="p1" routerLink="/home">Log out</p>
+                  <span class="span">You are logged in as idname.</span>
+                 </div>
+
+
+
+            
+  </div>
+ </div>
+</ion-content>
+<app-footer></app-footer>

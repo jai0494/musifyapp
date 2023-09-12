@@ -1,0 +1,64 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+
+ion-content{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main-div{
+          height: 100%;
+        background:rgb(65, 60, 60);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h5{
+            color: white;
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .input-2{
+            display: flex;
+            justify-content: center;
+            ion-item{
+                --background:transparent;
+                color: white;
+                font-size: 28px;
+                width: 80%;  
+                text-align: center;   
+                border-bottom: 1px solid rgb(195, 184, 184);          
+            }
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            margin-top: 2rem;
+            .cancel-btn{
+                --background: transparent;
+                border-radius: 25px;
+                height: 45px;
+                border: 1px solid rgb(195, 184, 184);
+                outline: none;
+                overflow: hidden;
+                color: white;
+                font-weight: 700;
+            }
+            .create-btn{
+                --background: var(--ion-buttons-color);
+                border-radius: 25px;
+                height: 45px;
+                outline: none;
+                overflow: hidden;
+                color: black;
+                font-weight: 700;
+            }
+        }
+    }
+   }

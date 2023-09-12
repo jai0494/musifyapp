@@ -1,0 +1,142 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+ion-header{
+    .header-tool{
+     --background: var(  --ion-header-background);
+        padding-left: 6px;
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+            .close-icon{
+                color: white;
+                font-size: 1.7rem;
+                padding-left: 3px;
+                padding-top: 5px;
+                
+            }
+            .p1{
+                text-align: center;
+                color: white;
+                font-size: 1rem;
+                font-weight: 700;
+                padding-right: 2rem;
+            }
+        }
+    }
+   }
+   
+   ion-content{
+    .main-div{
+        // background: rgb(28,180,68);
+background: linear-gradient(180deg, rgb(28, 194, 177) 7%, rgb(35, 166, 190) 20%, rgb(16, 16, 15) 44%);
+   height: calc(100vh - 160px);
+
+        // section-1
+        .section-1{
+            padding-left: 10px;
+            .inner{
+                padding-top: 1.2rem;
+                .inner-2{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 10px;
+                    .circle{
+                        height: 85px;
+                        width: 85px;
+                        border-radius: 50px;
+                        background: var( --ion-buttons-color);
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .person-icon{
+                            color: black;
+                            font-size: 25px;
+                        }
+                    }
+                    h6{
+                        font-size: 19px;
+                        font-weight: 800;
+                        color: white;
+                    }
+                    p{
+                        font-size: 12px;
+                        // color: var( --ion-color-medium-tint);
+                        color: white;
+                        font-weight: 800;
+                        span{
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+                .forward-icon{
+                    color: var( --ion-color-medium-tint);
+                }
+            }
+      
+        
+        }
+        .section-2{
+            padding-left: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-top: 10px;
+            gap: 10px;
+            .edit-btn{
+                --background: transparent;
+                overflow: hidden;
+               border-radius: 20px;
+                border: 1px solid rgb(255, 255, 255);
+                font-size: 12px;
+                text-transform: capitalize;
+                color: white;
+            }
+            .options-icon{
+                color: white;
+                padding-top: 5px;
+                font-size: 20px;
+            }
+        }
+        .section-3{
+            padding-left: 10px;
+            h4{
+                color: white;
+                font-weight: 700;
+            }
+            .playlist-div{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 15px;
+                padding-top: 20px;
+                .music-icon{
+                    font-size: 35px;
+                    color: white;
+                }
+                .p1{
+                    margin: 0;
+                    color: white;
+                    font-weight: 600;
+                }
+                span{
+                     color: rgb(147, 146, 146);
+                      font-size: 12px;    
+                }
+
+            }
+          
+        }
+   }
+   flex: 1;
+}
+app-footer{
+    height: 50px;
+}

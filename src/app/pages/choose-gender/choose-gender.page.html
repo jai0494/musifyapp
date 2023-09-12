@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/dob"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Create account</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">What's your gender?</p>
+ <div class="buttons">
+   <div>
+    <ion-button class="button">Female</ion-button>
+    <ion-button class="button">Male</ion-button>
+    <ion-button class="button">Non-binary</ion-button>
+    <ion-button class="button">Other</ion-button>
+    <ion-button class="button">Prefer not to say</ion-button>
+   </div>
+
+ </div>
+<!-- <small class="small-tag">You'll need to confirm this email later.</small> -->
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/create-account-terms">Next</ion-button>
+</div>
+ </div>
+</ion-content>
+

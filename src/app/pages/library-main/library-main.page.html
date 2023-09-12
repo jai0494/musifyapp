@@ -1,0 +1,157 @@
+<ion-header>
+  <div class="main-div">
+    <div class="header">
+      <div class="icons">
+        <div><ion-icon name="person-circle-outline" class="icon"></ion-icon></div>
+      </div>
+      <div>
+        <p class="p1">Your Library</p>
+      </div>
+      <div class="icons">
+        <div><ion-icon name="search-outline" class="icon"  routerLink="/library-search"></ion-icon></div>
+        <div><ion-icon name="add-outline" class="icon" expand="block" (click)="setOpen(true)"   ></ion-icon>
+        </div>
+      </div>
+    </div> 
+    <div class="tabs">
+      <div>
+        <ion-button class="music-tab">Playlists</ion-button>
+      </div>
+      <div>
+        <ion-button class="Podcasts-tab">Podcasts & Shows</ion-button>
+      </div>
+      <div>
+        <ion-button class="music-tab">Artists</ion-button>
+      </div>
+    </div>
+    </div>
+</ion-header>
+<ion-content>
+  <div class="main-div">
+   <!-- section-first -->
+ <div class="section-1-outer">
+     <div>
+      <div class="section-1-inner">
+        <ion-icon name="arrow-up-outline" class="icon"></ion-icon>
+        <div>
+          <p>Recents</p>
+        </div>
+      </div>
+    </div>
+    <ion-icon name="grid-outline" class="icon"></ion-icon>
+   </div>
+
+   <!-- section-second -->
+   <div class="section-2">
+    <div class="color-div">
+      <ion-icon name="notifications" class="bell-icon"></ion-icon>
+    </div>
+    <div class="Episodes">
+      <h6>New Episodes</h6>
+      <p>Updated Jul 21, 2023</p>
+    </div>
+   </div>
+   <div class="section-2">
+    <div class="color-div">
+      <img src="../../../assets/images/ranveer dp.png" alt="">
+    </div>
+    <div class="Episodes">
+      <h6>The Ranveer Show</h6>
+      <p>Podcast . BeerBiceps</p>
+    </div>
+   </div>
+
+   <div class="section-2-tone"  routerLink="/create-playlist-home">
+    <div class="color-div">
+      <ion-icon name="musical-note" class="tone-icon"></ion-icon>
+    </div>
+    <div class="Episodes">
+      <h6>My playlist #1</h6>
+      <p>Playlist . Myplaylist</p>
+    </div>
+   </div>
+    <!-- amit trivedi list -->
+   <div class="section-2-forth">
+    <div class="color-div">
+      <img src="../../../assets/images/amit-trivedi.webp" alt="" class="img">
+    </div>
+    <div class="Episodes">
+      <h6>Amit Trivedi</h6>
+      <p>Artist</p>
+    </div>
+   </div>
+
+   <!-- arijit singh list -->
+   <div class="section-2-forth">
+    <div class="color-div">
+      <img src="../../../assets/images/arijit-singh.webp" alt="">
+    </div>
+    <div class="Episodes">
+      <h6>Arijit Singh</h6>
+      <p>Artist</p>
+    </div>
+   </div>
+   <div class="section-2-forth">
+    <div class="color-div">
+      <img src="../../../assets/images/arman-malik.jpg" alt="">
+    </div>
+    <div class="Episodes">
+      <h6>Arman Malik</h6>
+      <p>Artist</p>
+    </div>
+   </div>
+   <div class="section-2-add"  routerLink="/add-artists">
+    <div class="color-div">
+      <ion-icon name="add" class="icon" class="plus-icon"></ion-icon>
+    </div>
+    <div class="Episodes">
+      <h6>Add artists</h6>
+    </div>
+   </div>
+   
+   <div class="section-2-podcast"  routerLink="/choose-podcasts">
+    <div class="color-div">
+      <ion-icon name="add" class="plus-icon"></ion-icon>
+    </div>
+    <div class="Episodes">
+      <h6>Add Podcasts & Shows</h6>
+    </div>
+   </div>
+  </div>
+  
+  <ion-modal [isOpen]="isModalOpen" [initialBreakpoint]="0.40" [breakpoints]="[0, 0.40, 0.5, 0.75]">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title class="title">Create</ion-title>
+          <!-- <ion-buttons slot="end">
+            <ion-button (click)="setOpen(false)">Close</ion-button>
+          </ion-buttons> -->
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        
+          <div class="section-2"  routerLink="/create-playlist-intro">
+            <div class="color-div">
+              <ion-icon name="musical-notes" class="icon"></ion-icon>
+            </div>
+            <div class="Episodes">
+              <h6>Playlist</h6>
+              <p>Build a playlist with songs, or Episodes</p>
+            </div>
+           </div>
+           <div class="section-2"  routerLink="/create-blend">
+            <div class="color-div">
+              <ion-icon name="add-circle-outline" class="icon"></ion-icon>
+            </div>
+            <div class="Episodes">
+              <h6>Blend</h6>
+              <p>Combine tastes in a shared playlist.</p>
+            </div>
+           </div>
+    
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</ion-content>
+<app-footer></app-footer>

@@ -1,0 +1,110 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+
+ion-header{
+    .header-tool{
+        --background:var(--ion-header-background);
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+            .back-arrow{
+                color: white;
+                font-size: 1.3rem;
+                padding-left: 3px;
+                
+            }
+            .p1{
+                text-align: center;
+                color: white;
+                font-size: 1.1rem;
+                padding-right: 2rem;
+            }
+        }
+    }
+  
+  
+    
+   }
+
+   ion-content{
+    .main-div{
+        padding-left: 10px;
+        background-color: black;
+        height: 100vh;
+        padding-bottom: 1.5rem;
+        .p1{
+            font-size: 1.3rem;
+            color: white;
+            font-weight: 700;
+            margin-top: 0;
+            padding-top: 2rem;
+        }  
+        .input-div{
+            padding-right: 10px;
+            padding-left: 5px;
+            margin-top: 1rem;
+
+            ion-input{
+                border-radius: 10px; 
+                background-color: gray; 
+                min-height: 45px;
+                --padding-end: 10px;
+                --padding-start: 10px; 
+                color: white;
+                          
+            }          
+         }
+         .small-tag{
+            color: white;
+            font-weight: 500;
+         }
+       hr{
+        border-bottom: 1px solid gray;
+        padding-top: 5px;
+       }
+      .section-2{
+        p{
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        small{
+            color:var(   --ion-text-color);
+            font-weight: 600;
+        }
+      }
+      .section-3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        p{
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .ion-checkbox{
+            color: white;
+        }
+      }
+        // next btn
+        .btn-div{
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            .next-btn{
+                width: 50%;
+                --border-radius: 60px;
+                --background: var( --ion-buttons-color);  
+                font-weight: 800;
+                font-size: 0.8rem;
+                text-transform: capitalize;
+            }
+            
+        }
+    }
+   }

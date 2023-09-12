@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/home"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Create account</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">What's your email?</p>
+ <div class="input-div">
+  <ion-input type="email"></ion-input>
+ </div>
+<small class="small-tag">You'll need to confirm this email later.</small>
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/sign-up-password">Next</ion-button>
+</div>
+ </div>
+</ion-content>

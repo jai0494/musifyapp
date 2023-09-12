@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <div>
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/home"></ion-icon>
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">Email or username</p>
+ <div class="input-div">
+  <ion-input type="Email"></ion-input>
+ </div>
+
+<p class="p2">Password</p>
+<div class="input-div">
+  <ion-input type="password"></ion-input>
+ </div>
+
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/home-page">Log in</ion-button>
+</div>
+<div class="ion-padding-top ion-text-center">
+ 
+  <ion-button class="without-pass-btn">Log in without password</ion-button>
+
+</div>
+ </div>
+</ion-content>

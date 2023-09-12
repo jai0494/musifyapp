@@ -1,0 +1,14 @@
+ion-content{
+    ion-tabs{
+       .tabs-bg{
+        --background:black;
+        .tabs-text{
+            color: var(  --ion-color-medium-tint);
+        }
+         .active{
+            color: white;
+         }
+       
+       }
+    }
+}

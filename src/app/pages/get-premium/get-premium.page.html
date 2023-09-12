@@ -1,0 +1,123 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow"  routerLink="/premium"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Get Premium</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="main-div">
+  <!-- section-1 -->
+  
+    <div class="section-1">
+      <div>
+        <h5>Review your plan</h5>
+      </div>
+      <p routerLink="/change-plan"><u>Change plan</u></p>
+    </div>
+    <!-- section-2 -->
+    <div class="section-2">
+      <div class="section-2-div">
+        <div>
+          <h6 class="premium-h6">Premium Individual</h6>
+          <p class="p1">1 Premium Account</p>
+        </div>
+       <div>
+        <h6 class="premium-h6-2">Free</h6>
+        <p class="p2">FOR 1 MONTH</p>
+       </div>
+      </div>
+      <div class="section-2-div-2">
+        <div>
+          <h6>Start free month</h6>
+          <p>Start billing date</p>
+        </div>
+       <div>
+        <h6 class="today">Today</h6>
+        <p>Aug 26, 2023</p>
+       </div>
+      </div>
+      <div class="section-2-div-3">
+        <ul>
+          <li>Only 119.00 INR / month after 1 month trial</li>
+          <li>You won't be changed until Aug 26,2023</li>
+          <li>Cancel anytime. <u>Offer terms</u> apply</li>
+          <li>We'll remindyou 7 days before you get charged</li>
+        </ul>
+      </div>
+    </div>
+    <!-- section-3 -->
+    <div class="section-3">
+      <h5>Choose how to pay</h5>
+      <p>You can pay for your Premium plan directly through or using your Google Play account.</p>
+      <div>
+        <ion-header>
+          <ion-toolbar class="segment-toolbar">
+            <ion-segment value="all">
+              <ion-segment-button value="all">
+                <div class="segment-div">
+                  <img src="../../../assets/images/phonepay.webp" alt="" height="20px" width="20px">
+                  <div>
+                    <p>Phone pe</p>
+                  </div>
+                </div>
+              </ion-segment-button>
+              <ion-segment-button value="favorites">
+                <div class="segment-div">
+                  <ion-icon name="logo-google-playstore" class="google-logo"></ion-icon>
+                  <div>
+                    <p>Google Play</p>
+                  </div>
+                </div>
+              </ion-segment-button>
+            </ion-segment>
+          </ion-toolbar>
+        </ion-header>
+      </div>
+    </div>
+    <!-- section-4 -->
+    <div class="section-4">
+       <div class="section-4-inner">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas voluptate doloribus dolore provident.</p>
+          <div class="payment-options">
+            <img src="../../../assets/images/upi.avif" alt="" height="25px" width="35px">
+            <img src="../../../assets/images/phonepay.webp" alt="" height="25px" width="35px">
+            <img src="../../../assets/images/googlepay.webp" alt="" height="25px" width="35px">
+            <img src="../../../assets/images/paytm.jpg" alt="" height="25px" width="35px">
+            <ion-button class="payment-options-btn">+6</ion-button>
+          </div>
+        <ion-button class="continue-spotify-btn"  routerLink="/continue-with-spotify"> Continue </ion-button>
+       </div>
+    </div>
+      
+    <!-- google play button div -->
+       <div class="section-4-div2">
+        <div class="section-4-inner">
+         <p>Pay for Premium through your Gogle Play account and earn Play Points.</p>
+           <div class="payment-options">
+            <img src="../../../assets/images/googlepay.webp" alt="" height="25px" width="35px">
+             <img src="../../../assets/images/upi.avif" alt="" height="25px" width="35px">
+             <img src="../../../assets/images/phonepay.webp" alt="" height="25px" width="35px">
+             <img src="../../../assets/images/visa.png" alt="" height="25px" width="35px">
+             <ion-button class="payment-options-btn">and more</ion-button>
+           </div>
+         <ion-button class="continue-spotify-btn"> Continue with Google Play </ion-button>
+        </div>
+     </div>
+
+    <!-- section-5 -->
+    <div class="section-5">
+      <p>India</p>
+      <p><u>Change Country</u></p>
+    </div>
+  </div>
+</ion-content>

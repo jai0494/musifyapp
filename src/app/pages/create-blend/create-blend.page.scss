@@ -1,0 +1,112 @@
+*{
+    font-family: var(--font-family-poppins);
+}
+
+ion-header{
+    .header-tool{
+        --background:var(--ion-header-background);
+        padding-left: 6px;
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+            .back-arrow{
+                color: white;
+                font-size: 1.3rem;
+                padding-left: 3px;
+                
+            }
+            .p1{
+                text-align: center;
+                color: white;
+                font-size: 1rem;
+                font-weight: 700;
+                padding-right: 2rem;
+            }
+        }
+    }
+   }
+
+   ion-content{
+    .main-div{
+        background: black;
+        height: calc(100vh - 50px);
+
+        .circle-main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2rem;
+            .circle-1{
+                height: 130px;
+                width: 130px;
+                border-radius: 70px;
+                background: var(--ion-buttons-color);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+                border: 3px solid black;
+                .icon{
+                    color: black;
+                    font-size: 35px;
+                }
+            }
+            .circle-2{
+                height: 130px;
+                width: 130px;
+                border-radius: 70px;
+                background: var( --ion-color-medium-shade);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                right: 20px;
+                .icon{
+                    color: black;
+                    font-size: 35px;
+                    font-weight: 800;
+                }
+            }
+
+        }
+        .section-2{
+         text-align: center;
+         padding-top: 10px;
+            h3{
+                color: white;
+                font-weight: 800;
+            }
+            h6{
+                color: white;
+                font-size: 11px;
+                padding: 1rem;
+                padding-top: 4px;
+            }
+            p{
+                color: var(  --ion-color-medium-tint);
+                font-size: 10px;
+                padding: 1rem;
+                padding-top: 2px;
+                text-align: justify;
+            }
+          .invite-btn{
+            color: black;
+            --background:white;
+            text-transform: capitalize;
+            --border-radius: 20px;
+            font-size: 12px;
+            width: 20%;
+            padding-bottom: 2rem;
+          }
+        }
+
+     
+    }
+    flex: 1;
+   }
+   app-footer{
+    height: 50px;
+   }

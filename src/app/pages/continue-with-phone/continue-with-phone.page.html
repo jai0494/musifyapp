@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/home"></ion-icon>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">Enter phone number</p>
+ <div class="input-div">
+    <ion-select placeholder="India">
+      <ion-select-option value="apple">Colombia</ion-select-option>
+      <ion-select-option value="banana">Morocco</ion-select-option>
+      <ion-select-option value="orange">India</ion-select-option>
+      <ion-select-option value="orange">Thailand</ion-select-option>
+      <ion-select-option value="orange">Egypt</ion-select-option>
+      <ion-select-option value="orange">Mexico</ion-select-option>
+      <ion-select-option value="orange">Ghana</ion-select-option>
+    </ion-select>
+ </div>
+ <div class="div2">
+  <div class="code-div"><p class="code">+91</p></div>
+  <div>
+      <ion-input placeholder="Phone number"></ion-input>
+  </div>
+ </div>
+
+<small class="small-tag">We'll send you a code by SMS to confirm your phone number.</small>
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/otp">Next</ion-button>
+</div>
+ </div>
+</ion-content>

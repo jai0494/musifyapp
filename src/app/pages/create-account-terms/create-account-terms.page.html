@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar class="header-tool">
+    <div class="header">
+     <div>
+      <ion-icon name="arrow-back-outline" class="back-arrow" routerLink="/choose-gender"></ion-icon>
+     </div>
+     <div class="p1">
+      <p>Create account</p>
+     </div>
+     <div>
+
+     </div>
+      </div>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <div class="main-div"> 
+ <p class="p1">What's your name?</p>
+ <div class="input-div">
+  <ion-input type="email"></ion-input>
+ </div>
+ <small class="small-tag">This appears on your Spotify profile.</small>
+ <hr>
+
+ <div class="section-2">
+<p>By tapping "Create account", you agree to the Spotify Terms  of Use.</p>
+<small>Terms of Use</small>
+ </div>
+ 
+ <div class="section-2">
+  <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see the Spotify Privacy Policy.</p>
+  <small>Privacy Policy</small>
+   </div>
+
+   <div class="section-3">
+   <p>I would prefer not to receive marketing messages from Spotify.</p>
+   <div>
+    <ion-checkbox></ion-checkbox>
+   </div>
+     </div>
+     <div class="section-3">
+      <p>Share my registration data with Spotify's content providers for marketing purposes.</p>
+      <div>
+       <ion-checkbox></ion-checkbox>
+      </div>
+        </div>
+
+  <!-- next button -->
+<div class="btn-div">
+  <ion-button class="next-btn" routerLink="/home-page">Create account</ion-button>
+</div>
+ </div>
+</ion-content>
